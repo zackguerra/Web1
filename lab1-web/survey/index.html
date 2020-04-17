@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box_content">
+        <div id="title">
+            <h1>SURVEY</h1>
+        </div>    
+        <fieldset><!--START TASK1-->
+            <legend>TASK1</legend>
+            <div id="task1_container">
+                <div id="box_contact">
+                    <div id="contact">
+                        <p>NAME</p>
+                        <spam>:</spam>
+                        <input type="text" name="name" id="input_contact">
+                    </div>
+                    <div id="contact">
+                        <p>PHONE</p>
+                        <spam>:</spam>
+                        <input type="text" name="phone" id="input_contact">
+                    </div>
+                    <div id="contact">
+                        <p>EMAIL</p>
+                        <spam>:</spam>
+                        <input type="text" name="email" id="input_contact">
+                    </div>
+                    <div id="contact">
+                        <p>COMMENTS</p>
+                        <spam>:</spam>
+                        <textarea name="comments" id="contact_comment"></textarea>
+                    </div>
+                </div>
+                <div id="box_btn">
+                    <button type="submit" class="submit_btn">SUBMIT</button>
+                    <button type="reset" class="reset_btn">RESET</button>
+                </div>
+            </div>
+
+        </fieldset>
+        <!-- END TASK1 -->
+        <fieldset ><!--START TASK2-->
+            <legend>TASK2</legend>
+            <div id="task2_container">
+                <div id="task_content1"><!--START CONTENT1-->
+                    <div class="box_select">
+                        <h2>GENDER</h2>
+                        <select name="dropdown" id="dropdown">
+                            <option value="MALE">MALE</option>
+                            <option value="FEMALE">FEMALE</option>
+                        </select>
+                    </div>
+                    <div class="box_select">
+                        <h2>HOBBIES</h2>
+                        <div id="checkbox">
+                            <div id="hobbies1">
+                                <ul>
+                                    <li>                        <input type="checkbox" name="SKI">
+                                        <label for="SKI">SKI</label></li>
+                                    <li>                        <input type="checkbox" name="SWIM">
+                                        <label for="SWIM">SWIM</label></li>
+                                    <li>                        <input type="checkbox" name="GOLF">
+                                        <label for="GOLF">GOLF</label></li>
+                                </ul>
+                            </div>
+                            <div id="hobbies2">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" name="STUDY">
+                                        <label for="STUDY">STUDY</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="WALK">
+                                        <label for="WALK">WALK</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="NOTHING">
+                                        <label for="NOTHING">NOTHING</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_select">
+                        <h2>COURSE</h2>
+                        <ul >
+                            <li>
+                                <input type="radio" name="course" id="label1" value="MATH">
+                                <label for="label1">MATH</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="course" id="label2" value="ENGLISH">
+                                <label for="label1">ENGLISH</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="course" id="label2" value="COMPUTER">
+                                <label for="label1">COMPUTER</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--END CONTENT1-->
+                <div id="task_content2"><!--START CONTENT2-->
+                    <div class="btn_arrows">
+                        <div id="arrows1">
+                            <button>&uparrow;TOP</button>
+                        </div>
+                        <div id="arrows2">
+                            <button>&leftarrow;LEFT</button>
+                            <button>&downarrow;BOTTOM</button>
+                            <button>&rightarrow;RIGHT</button>
+                        </div>
+                    </div><!--END CONTENT2-->
+                    <div id="box_btn">
+                        <button type="submit"  class="submit_btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <!-- END TASK2 -->
+        <footer>
+            <p>---- COPYRIGHT &copy; 2020 HTML & CSS ----</p>
+        </footer>
+    </div>
+</body>
+</html>

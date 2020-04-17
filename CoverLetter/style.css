@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    font-size: 20px;    
+}
+.name{
+    padding: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 40px;
+    width: 84%;
+}
+
+#address {
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#container{
+    background-color: white;
+    width: 100%;
+    margin-left: 50px;
+    
+}
+#email{
+    display: flex;
+    text-align: center;
+
+}
+.maillogo{
+    width: 25px;
+    margin-right: 5px;
+}
+.phonelogo{
+    width: 25px;
+    margin-right: 5px;
+}
+#phone{
+    display: flex;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    height: 5px;
+    background-color: #1abc9c;
+    font-size: 20px;
+}
+
+#bodytext {
+
+    font-size: 20px;
+    text-align: justify;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+a{
+    text-decoration: none;
+}

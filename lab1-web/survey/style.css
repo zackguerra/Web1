@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#box_content {
+    top:50%;
+    left: 50%;
+    width: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid #438bc9;
+}
+
+#title {
+    width: 140px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+    background-color: black;
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+}
+
+fieldset {
+    width: 90%;
+    margin: 40px auto;
+    border: 2px solid #8d8d8d;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#task1_container, #task_content1, #task_content2, #contact, #checkbox, #arrows1 {
+    display: flex;
+}
+
+#box_contact {
+    width: 30vw;
+    margin: 0 2.5vw 1.5vh 0;
+}
+
+#contact p {
+    width: 6vw;
+    margin: 0.5vh;
+}
+
+#input_contact, #contact_comment {
+    border: 1px solid black;
+    margin-left: 0.2vw;
+}
+
+#contact_comment {
+    width: 13vw;
+    height: 6vh;
+}
+
+#box_btn {
+    margin-top: 7vh;
+}
+
+#box_btn button{
+    color: white;
+    width: 12vw;
+    height: 4vh;
+    display: block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.submit_btn {
+    background-color: #438bca;
+}
+
+.reset_btn {
+    margin-top: 0.5vh;
+    background-color: #d95350;
+}
+
+#contact {
+    width: 400px;
+    align-items: center;
+}
+
+#input_contact {
+    width:150px;
+    height: 15px;
+}
+
+.box_select {
+    margin-right: 2.5vw;
+}
+
+.box_select:first-child {
+    margin-left: 0.2vw;
+}
+
+#dropdown {
+    margin-top: 1.5vh;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-bottom: 0.3vh;
+}
+
+#hobbies1, #hobbies2 {
+    margin-right: 3vw;
+}
+
+.btn_arrows {
+    width: 20vw;
+    margin: auto;
+}
+
+#task_content2 {
+    margin: 4vh 0 2vh 0;
+}
+
+#arrows1 {
+    margin-bottom: 0.5vh;
+}
+
+#arrows1 button {
+    width: 6vw;
+    margin: auto;
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#arrows2 {
+    text-align: center;
+    justify-content: center;
+}
+
+#arrows2 button {
+    width: 6vw;
+    font-size: 0.9em;
+    margin-left: 0.5vw;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#arrows2 button:first-child {
+    margin-left: 0px;
+}
+
+#task_content2 #box_btn {
+    margin: auto;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: orange;
+}

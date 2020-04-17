@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: block;
+}
+#header {
+    background-color: #333333;
+    margin: 0;
+}
+
+#bar_logo {
+    width: 100%;
+}
+.applelogo {
+    width: 50px;
+    margin: 10px 20px 10px 50px;
+}
+
+#bar_menu {
+    background-color: #800001;
+    display: flex;
+    color: white;
+}
+
+#bar_menu p  {
+    height: 15px;
+    margin-left: 50px;
+}
+#content {
+    display:flex;
+    background-color: #dcdcdc;
+    height: auto;
+}
+#text {
+    margin-left: 45px;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+/* #eifel {
+    width: auto;
+    height: auto;
+} */
+
+.eiffel {
+    border: 3px solid white;
+    justify-content: center;
+    width: 40vw;
+    height: 30vh;
+    box-shadow: 8px 8px 5px gray;
+    margin: 30px 60px 40px 20px;
+}
+
+#readmorebtn {
+    margin-left: auto;
+    height:50px;
+    width:130px;
+    background-color: #444444;
+    color: white;
+    font-weight: bold;
+    display: block;    
+    border-radius: 15px;
+    font-style: italic;
+  }
+
+/* second section */
+
+.sec-h1{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px 20px 20px 70px;
+    margin: 0;
+}
+
+.sec-second{
+    background-color: #810000;
+    color: white;
+}
+
+.second-container{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+.second-box{ 
+    margin: 0 25px;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.7);
+}
+
+img{
+    width: 192px;
+}
+
+.box{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.box p {
+    margin: 0;
+}
+
+.box-para{
+    font-weight: 700;
+}
+
+.box-content{
+    width: 192px;
+    font-size: 12px;
+}
+
+.second-pic{
+    border: 3px solid white;
+    box-shadow: 2px 5px 2px 0px rgba(41, 40, 40, 0.794);
+}
+
+.last-box{
+    border-right: none;
+}
+
+footer{
+    width: 100%;
+    background: rgb(50, 50, 50);
+    color: white;
+}
+
+.footer-copy{
+    font-size: 11px;
+    text-align: center;
+    padding: 10px 0 5px;
+    margin: 0;
+}

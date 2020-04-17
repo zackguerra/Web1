@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Test</title>
+
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        #combination{
+            width: 100px;
+            height: 440px;
+            padding: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        #red, #green, #blue{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+        }
+        #red{
+            background-color: rgba(255, 0, 0, 1);
+        }
+        #green{
+            background-color: rgba(0, 255, 0, 1);
+        }
+        #blue{
+            background-color: rgba(0, 0, 255, 1);
+        }
+        #combination+p{
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="combination">
+    <h1 id="red">1</h1>
+    <h1 id="green">2</h1>
+    <h1 id="blue">3</h1>
+    <h1>This is <span>very</span>good</h1>
+</div>
+<p>Adjacent</p>
+<p>All others</p>
+</body>
+</html>
