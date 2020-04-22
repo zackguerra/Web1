@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment for 04/20/2019 about FONTS">
+    <meta name="keywords" content="practice, fonts, html, css, java, javafx, zack, guerra">
+    <meta name="author" content="Ezequias Guerra">
+    <link rel = "icon" type = "image/icon" href = "/practice/images/zackicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <title>Font Properties</title>
+
+    <style>
+        body {
+            background-color: seashell;
+        }
+        .title {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            font-weight: 900;   
+        }
+        .blue-text {
+            color: blue;
+            font-size: 25px;
+            font-family: fantasy;
+        }
+
+        .red-text {
+            color: red;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .standardsize {
+            font-size: 30px;
+        }
+        .text {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .fontexample {
+            font-family: 'Shadows Into Light', sans-serif;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="assignmentfont">
+        <h1 class="title">Change the Font Properties:</h1>
+
+        <p class="blue-text">This text is BLUE, size 25px, font Family fantasy.</p>
+        <p class="red-text">This text is RED size 50px, font Family georgia.</p>
+
+        <h1>Family Font Types:</h1>
+        <img class="printfont" src="/practice/images/FontPrint.png" alt="printscreen">
+
+        <p class="text"> Importing a 
+                        <span class="standardsize" style="color:#4285f4">G</Span>
+                        <span class="standardsize" style="color:#ea4335">O</span>
+                        <span class="standardsize" style="color:#fbbc05">O</span>
+                        <span class="standardsize" style="color:#4285f4">G</span>
+                        <span class="standardsize" style="color:#34a853">L</span>
+                        <span class="standardsize" style="color:#ea4335">E</span>
+                        Font:
+        </p>
+        <p class="text">Go to the Website https://fonts.google.com/
+            <img class="googlefonts" src="/practice/images/googlefonts.png" width="80%" alt="googlefonts">
+
+            <P class="fontexample">This font is a Google Imported Font called 'Shadows Into Light'.</P>
+
+            <p class="text"> How Fonts Should Degrade:
+            When one font isn't available, you can tell the browser to degrade to another font. if you wanted an element to use the Google font, but degrade to the sans-serif font when Google Font isn't available, you will specify it as follows:</p>
+            <img class="fontDegrade" src="/practice/images/fontDegrade.png" width="60%" alt="googlefonts">
+
+    </div>
+
+</body>
+</html>
