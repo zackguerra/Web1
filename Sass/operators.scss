@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+}
+article {
+  float: left;
+  width: 700px / 960px * 100%;
+  background-color: yellow;
+}
+.sidebar {
+  float: right;
+  width: 200px / 960px * 100%;
+  background-color: skyblue;
+}
+

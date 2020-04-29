@@ -1,0 +1,26 @@
+        #sample {
+            color: blue;
+        }
+        
+        #shape1,
+        #shape2 {
+            box-sizing: border-box;
+            background-color: red;
+        }
+        
+        #shape1 {
+            width: 320px;
+            height: 320px;
+            padding: 10px;
+            border: 5px solid grey;
+            margin: 0;
+            /* 320 + 20(let and right padding + 10(left and right border = 350*/
+        }
+        
+        #shape2 {
+            width: 320px;
+            height: 320px;
+            border: 0px solid grey;
+            margin: 0;
+            margin-top: 10px;
+        }

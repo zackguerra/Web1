@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+        
+        .item3 {
+            grid-area: main;
+        }
+        
+        .item4 {
+            grid-area: menu;
+        }
+        
+        .item5 {
+            grid-area: footer;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'menu header header' 'menu main main' 'menu footer footer';
+            grid-gap: 10px;
+            background-color: skyblue;
+            padding: 10px;
+        }
+        
+        .grid-container>div {
+            background-color: #ddd;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Grid Template Page</h1>
+    <div class="grid-container">
+        <div class="item1">One</div>
+
+        <div class="item3">Three</div>
+        <div class="item4">Four</div>
+        <div class="item5">Five</div>
+    </div>
+</body>
+
+</html>

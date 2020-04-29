@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            margin: 0px;
+        }
+        
         #relative {
             width: 200px;
             height: 200px;
@@ -14,7 +19,7 @@
             top: 0px;
             border-radius: 50%;
         }
-
+        
         #absolute {
             width: 100px;
             height: 100px;
@@ -24,39 +29,40 @@
             top: 50px;
             left: -50px;
         }
-
+        
         #sticky {
-            width: 100%px;
+            width: 100%;
             height: 30px;
             background-color: skyblue;
             position: sticky;
             top: 0px;
         }
-
+        
         #extra {
             width: 100%;
             height: 1900px;
             background-color: blue;
         }
-
     </style>
 </head>
+
 <body>
-    <!--
+    <!-- 
         position:
             relative
             absolute
             fixed
             static
             sticky
-    -->
-
+            
+     -->
 
     <div id="relative">
         <div id="absolute"></div>
     </div>
     <div id="sticky"></div>
     <div id="extra"></div>
-    
+
 </body>
+
 </html>

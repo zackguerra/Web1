@@ -1,0 +1,14 @@
+.color {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  border: 100px solid black;
+  width: 500px;
+  height: 200px;
+}
+
+.color {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

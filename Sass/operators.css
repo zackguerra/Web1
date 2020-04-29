@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+
+article {
+  float: left;
+  width: 72.91667%;
+  background-color: yellow;
+}
+
+.sidebar {
+  float: right;
+  width: 20.83333%;
+  background-color: skyblue;
+}
+/*# sourceMappingURL=operators.css.map */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,41 @@
         div {
             font-size: 16px;
         }
+        
         .float {
             float: left;
             margin-right: 20px;
             box-shadow: 10px 10px 20px 3px;
         }
+        
         p:first-letter {
             color: red;
             font-size: 2rem;
         }
+        
+        p::before {
+            /* content: ''; */
+            display: block;
+            margin: 100px;
+        }
+        
         h1 {
             text-align: center;
-            text-shadow: 2px 3px 3px #05f;
-
+            text-shadow: 2px 4px rgba(255, 0, 0, 0.3);
         }
     </style>
 </head>
+
 <body>
     <h1>THIS SHADOW</h1>
     <div>
-        <p><img src="/overflow/images/horse.jpg" class="float"style="width: 200px;" alt="magic"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, error. Ullam alias minima obcaecati voluptatum maiores eius, assumenda quasi ab id pariatur excepturi error nam recusandae tenetur dignissimos in quidem!
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, cumque quas? Porro tempore illum recusandae hic nulla quibusdam consectetur vel natus! Iusto molestiae architecto, corporis quia amet perferendis alias nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore vero maiores dolorum corporis exercitationem non accusantium consequuntur fuga est.</p>
+        <p>
+            <img src="./images/img.jpg" class="float" style=" width:200px; " alt=" magic "> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis delectus exercitationem dolor reiciendis pariatur est quasi numquam dolore ea quam tenetur,
+            magni, quibusdam autem eum vero, dicta nihil optio illo. Delectus non ipsa aliquid nemo consequatur tempore vero quis perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum itaque natus consequatur iure deserunt illum
+            odio amet possimus voluptate molestiae! Maxime possimus, eius necessitatibus in vero ad qui! Sequi odit, voluptatibus dicta veniam, assumenda quaerat nihil temporibus recusandae harum, nemo cupiditate natus incidunt neque magnam omnis. Laborum
+            maiores reprehenderit nisi.
+        </p>
     </div>
 </body>
+
 </html>

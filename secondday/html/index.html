@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External CSS -->
+
+    <style>
+        body,
+        html {
+            margin: 0px;
+        }
+        
+        #division,
+        #headline,
+        #paragraph,
+        #form {
+            /* width: 100%; */
+            height: 50px;
+            margin-top: 10px;
+            background-color: skyblue;
+        }
+        
+        span.red {
+            color: red;
+        }
+        
+        iframe {
+            margin: 0 auto;
+            /* display: block; */
+        }
+        
+        #sample {
+            color: rgb(218, 16, 93);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+            /*'em' means 'M'. width is 16px */
+            font-size: 1em;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Muli:ital@1&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Block Element -->
+    <div id="division"></div>
+    <h1 id="headline"></h1>
+    <p id="paragraph">This <span class="red">is</span> a
+        <a href="http://www.google.com">paragraph</a></p>
+    <form action=" " id="form "></form>
+    <p>
+        <q>The only true wisdom is in knowing you know nothing</q> Socrates</p>
+    <!-- iframe can have intertnal webpage inside -->
+    <iframe src="http://www.ibm.com" width="700px" frameborder=" 0 "></iframe>
+    <p>&lt; &copy; &reg; &amp;</p>
+    <h1 id="sample">Sample</h1>
+    <!-- 
+    We have 
+    -contents
+    -padding
+    -border
+    -margin
+
+    top->right->bottom->left
+    -(4 values)margin: 10px 20px 30px 40px;
+    -(3 values)margin: 10px(top)20px(right & left) 30px(bottom);
+    -(2 values)margin: 10px(top & bottom) 20px9(right & left);
+    -(1 value)margin: 10px;
+
+ -->
+    <div id="shape1"></div>
+    <div id="shape2"></div>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,21 @@
         img {
             width: 200px;
             height: 100px;
-            background-color: red;
-            /* transition: width 2s, height 2s; */
-            /* transition: all 1s; */
-            transition: width 2s, height 3s ease 2s;
-            /* transition-duration: 2s; */
-            /* transition-delay: 1s; */
-            transition-property: all;
-            /* transition-timing-function: ease-in-out; */
+            background: red;
+            transition: width 2s, height 2s ease;
         }
+        
         img:hover {
-            width: 400px;
-            height: 200px;
+            width: 600px;
+            height: 300px;
         }
-
-
-
     </style>
 </head>
+
 <body>
     <h1>Transition property</h1>
     <p>Hover over the div element below to the transition effect</p>
-    <img src="../overflow/images/horse.jpg" class="" alt="horse">
-    
+    <img src="./images/img.jpg" alt="">
 </body>
+
 </html>
