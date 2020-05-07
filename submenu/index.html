@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            margin: 0 auto;
+            background-color: skyblue;
+        }
+        .willbehidden {
+            position: absolute;
+            left: 0px;
+            top: 38px;
+            text-align: center;
+            display: none;
+            width: 150px;
+            background-color: #ff9400;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .mother {
+            position: relative;
+            top: 0px;
+        }
+        
+        li, .willbehidden >li{
+            display: inline-block;
+            padding: 10px 20px;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+        }
+
+        .willbehidden > li{
+            position: relative;
+            left: -40px;
+        }
+
+        .willbehidden > li:hover{
+            color: black;
+            background-color: skyblue;
+            border-bottom: 2px solid black;
+        }
+
+        .mother:hover ul{
+            display: block;
+            margin: 2px 0;
+        }
+
+        .mother:hover >li{
+            border-bottom: 2px solid black;
+        }
+
+        .parent>li:hover{
+            cursor: pointer;
+            color: white;
+            border-bottom: 2px solid black;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul class="parent">
+        <li>Home</li>
+        <li class="mother">About
+            <ul class="willbehidden">
+                <li>Who we are</li>
+                <li>What we do</li>
+            </ul>
+        </li>
+        <li>Gallery</li>
+        <li>Contact</li>
+    </ul>
+    
+</body>
+</html>
